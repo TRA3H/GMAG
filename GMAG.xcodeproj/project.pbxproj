@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D14DC9F82AE6A5FE0016E466 /* GMAGApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14DC9F72AE6A5FE0016E466 /* GMAGApp.swift */; };
+		D14DC9FA2AE6A5FE0016E466 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14DC9F92AE6A5FE0016E466 /* ContentView.swift */; };
+		D14DC9FC2AE6A5FF0016E466 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D14DC9FB2AE6A5FF0016E466 /* Assets.xcassets */; };
+		D14DC9FF2AE6A5FF0016E466 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D14DC9FE2AE6A5FF0016E466 /* Preview Assets.xcassets */; };
+		D14DCA012AE6A5FF0016E466 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14DCA002AE6A5FF0016E466 /* Persistence.swift */; };
+		D14DCA042AE6A5FF0016E466 /* GMAG.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D14DCA022AE6A5FF0016E466 /* GMAG.xcdatamodeld */; };
+		D14DCA0F2AE6A5FF0016E466 /* GMAGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14DCA0E2AE6A5FF0016E466 /* GMAGTests.swift */; };
+		D14DCA192AE6A5FF0016E466 /* GMAGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14DCA182AE6A5FF0016E466 /* GMAGUITests.swift */; };
+		D14DCA1B2AE6A5FF0016E466 /* GMAGUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14DCA1A2AE6A5FF0016E466 /* GMAGUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D14DCA0B2AE6A5FF0016E466 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D14DC9EC2AE6A5FE0016E466 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D14DC9F32AE6A5FE0016E466;
+			remoteInfo = GMAG;
+		};
+		D14DCA152AE6A5FF0016E466 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D14DC9EC2AE6A5FE0016E466 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D14DC9F32AE6A5FE0016E466;
+			remoteInfo = GMAG;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D14DC9F42AE6A5FE0016E466 /* GMAG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GMAG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D14DC9F72AE6A5FE0016E466 /* GMAGApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMAGApp.swift; sourceTree = "<group>"; };
+		D14DC9F92AE6A5FE0016E466 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D14DC9FB2AE6A5FF0016E466 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D14DC9FE2AE6A5FF0016E466 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D14DCA002AE6A5FF0016E466 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		D14DCA032AE6A5FF0016E466 /* GMAG.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GMAG.xcdatamodel; sourceTree = "<group>"; };
+		D14DCA052AE6A5FF0016E466 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D14DCA0A2AE6A5FF0016E466 /* GMAGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GMAGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D14DCA0E2AE6A5FF0016E466 /* GMAGTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMAGTests.swift; sourceTree = "<group>"; };
+		D14DCA142AE6A5FF0016E466 /* GMAGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GMAGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D14DCA182AE6A5FF0016E466 /* GMAGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMAGUITests.swift; sourceTree = "<group>"; };
+		D14DCA1A2AE6A5FF0016E466 /* GMAGUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMAGUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D14DC9F12AE6A5FE0016E466 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D14DCA072AE6A5FF0016E466 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D14DCA112AE6A5FF0016E466 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D14DC9EB2AE6A5FE0016E466 = {
+			isa = PBXGroup;
+			children = (
+				D14DC9F62AE6A5FE0016E466 /* GMAG */,
+				D14DCA0D2AE6A5FF0016E466 /* GMAGTests */,
+				D14DCA172AE6A5FF0016E466 /* GMAGUITests */,
+				D14DC9F52AE6A5FE0016E466 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D14DC9F52AE6A5FE0016E466 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D14DC9F42AE6A5FE0016E466 /* GMAG.app */,
+				D14DCA0A2AE6A5FF0016E466 /* GMAGTests.xctest */,
+				D14DCA142AE6A5FF0016E466 /* GMAGUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D14DC9F62AE6A5FE0016E466 /* GMAG */ = {
+			isa = PBXGroup;
+			children = (
+				D14DC9F72AE6A5FE0016E466 /* GMAGApp.swift */,
+				D14DC9F92AE6A5FE0016E466 /* ContentView.swift */,
+				D14DC9FB2AE6A5FF0016E466 /* Assets.xcassets */,
+				D14DCA002AE6A5FF0016E466 /* Persistence.swift */,
+				D14DCA052AE6A5FF0016E466 /* Info.plist */,
+				D14DCA022AE6A5FF0016E466 /* GMAG.xcdatamodeld */,
+				D14DC9FD2AE6A5FF0016E466 /* Preview Content */,
+			);
+			path = GMAG;
+			sourceTree = "<group>";
+		};
+		D14DC9FD2AE6A5FF0016E466 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D14DC9FE2AE6A5FF0016E466 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D14DCA0D2AE6A5FF0016E466 /* GMAGTests */ = {
+			isa = PBXGroup;
+			children = (
+				D14DCA0E2AE6A5FF0016E466 /* GMAGTests.swift */,
+			);
+			path = GMAGTests;
+			sourceTree = "<group>";
+		};
+		D14DCA172AE6A5FF0016E466 /* GMAGUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D14DCA182AE6A5FF0016E466 /* GMAGUITests.swift */,
+				D14DCA1A2AE6A5FF0016E466 /* GMAGUITestsLaunchTests.swift */,
+			);
+			path = GMAGUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D14DC9F32AE6A5FE0016E466 /* GMAG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D14DCA1E2AE6A5FF0016E466 /* Build configuration list for PBXNativeTarget "GMAG" */;
+			buildPhases = (
+				D14DC9F02AE6A5FE0016E466 /* Sources */,
+				D14DC9F12AE6A5FE0016E466 /* Frameworks */,
+				D14DC9F22AE6A5FE0016E466 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GMAG;
+			productName = GMAG;
+			productReference = D14DC9F42AE6A5FE0016E466 /* GMAG.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D14DCA092AE6A5FF0016E466 /* GMAGTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D14DCA212AE6A5FF0016E466 /* Build configuration list for PBXNativeTarget "GMAGTests" */;
+			buildPhases = (
+				D14DCA062AE6A5FF0016E466 /* Sources */,
+				D14DCA072AE6A5FF0016E466 /* Frameworks */,
+				D14DCA082AE6A5FF0016E466 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D14DCA0C2AE6A5FF0016E466 /* PBXTargetDependency */,
+			);
+			name = GMAGTests;
+			productName = GMAGTests;
+			productReference = D14DCA0A2AE6A5FF0016E466 /* GMAGTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D14DCA132AE6A5FF0016E466 /* GMAGUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D14DCA242AE6A5FF0016E466 /* Build configuration list for PBXNativeTarget "GMAGUITests" */;
+			buildPhases = (
+				D14DCA102AE6A5FF0016E466 /* Sources */,
+				D14DCA112AE6A5FF0016E466 /* Frameworks */,
+				D14DCA122AE6A5FF0016E466 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D14DCA162AE6A5FF0016E466 /* PBXTargetDependency */,
+			);
+			name = GMAGUITests;
+			productName = GMAGUITests;
+			productReference = D14DCA142AE6A5FF0016E466 /* GMAGUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D14DC9EC2AE6A5FE0016E466 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D14DC9F32AE6A5FE0016E466 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					D14DCA092AE6A5FF0016E466 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = D14DC9F32AE6A5FE0016E466;
+					};
+					D14DCA132AE6A5FF0016E466 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = D14DC9F32AE6A5FE0016E466;
+					};
+				};
+			};
+			buildConfigurationList = D14DC9EF2AE6A5FE0016E466 /* Build configuration list for PBXProject "GMAG" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D14DC9EB2AE6A5FE0016E466;
+			productRefGroup = D14DC9F52AE6A5FE0016E466 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D14DC9F32AE6A5FE0016E466 /* GMAG */,
+				D14DCA092AE6A5FF0016E466 /* GMAGTests */,
+				D14DCA132AE6A5FF0016E466 /* GMAGUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D14DC9F22AE6A5FE0016E466 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D14DC9FF2AE6A5FF0016E466 /* Preview Assets.xcassets in Resources */,
+				D14DC9FC2AE6A5FF0016E466 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D14DCA082AE6A5FF0016E466 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D14DCA122AE6A5FF0016E466 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D14DC9F02AE6A5FE0016E466 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D14DCA012AE6A5FF0016E466 /* Persistence.swift in Sources */,
+				D14DCA042AE6A5FF0016E466 /* GMAG.xcdatamodeld in Sources */,
+				D14DC9FA2AE6A5FE0016E466 /* ContentView.swift in Sources */,
+				D14DC9F82AE6A5FE0016E466 /* GMAGApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D14DCA062AE6A5FF0016E466 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D14DCA0F2AE6A5FF0016E466 /* GMAGTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D14DCA102AE6A5FF0016E466 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D14DCA1B2AE6A5FF0016E466 /* GMAGUITestsLaunchTests.swift in Sources */,
+				D14DCA192AE6A5FF0016E466 /* GMAGUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D14DCA0C2AE6A5FF0016E466 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D14DC9F32AE6A5FE0016E466 /* GMAG */;
+			targetProxy = D14DCA0B2AE6A5FF0016E466 /* PBXContainerItemProxy */;
+		};
+		D14DCA162AE6A5FF0016E466 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D14DC9F32AE6A5FE0016E466 /* GMAG */;
+			targetProxy = D14DCA152AE6A5FF0016E466 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D14DCA1C2AE6A5FF0016E466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D14DCA1D2AE6A5FF0016E466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D14DCA1F2AE6A5FF0016E466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GMAG/Preview Content\"";
+				DEVELOPMENT_TEAM = J799XVQH5N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TRA3H.GMAG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D14DCA202AE6A5FF0016E466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GMAG/Preview Content\"";
+				DEVELOPMENT_TEAM = J799XVQH5N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TRA3H.GMAG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D14DCA222AE6A5FF0016E466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J799XVQH5N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TRA3H.GMAGTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GMAG.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GMAG";
+			};
+			name = Debug;
+		};
+		D14DCA232AE6A5FF0016E466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J799XVQH5N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TRA3H.GMAGTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GMAG.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GMAG";
+			};
+			name = Release;
+		};
+		D14DCA252AE6A5FF0016E466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J799XVQH5N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TRA3H.GMAGUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GMAG;
+			};
+			name = Debug;
+		};
+		D14DCA262AE6A5FF0016E466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J799XVQH5N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TRA3H.GMAGUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GMAG;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D14DC9EF2AE6A5FE0016E466 /* Build configuration list for PBXProject "GMAG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D14DCA1C2AE6A5FF0016E466 /* Debug */,
+				D14DCA1D2AE6A5FF0016E466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D14DCA1E2AE6A5FF0016E466 /* Build configuration list for PBXNativeTarget "GMAG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D14DCA1F2AE6A5FF0016E466 /* Debug */,
+				D14DCA202AE6A5FF0016E466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D14DCA212AE6A5FF0016E466 /* Build configuration list for PBXNativeTarget "GMAGTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D14DCA222AE6A5FF0016E466 /* Debug */,
+				D14DCA232AE6A5FF0016E466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D14DCA242AE6A5FF0016E466 /* Build configuration list for PBXNativeTarget "GMAGUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D14DCA252AE6A5FF0016E466 /* Debug */,
+				D14DCA262AE6A5FF0016E466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D14DCA022AE6A5FF0016E466 /* GMAG.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D14DCA032AE6A5FF0016E466 /* GMAG.xcdatamodel */,
+			);
+			currentVersion = D14DCA032AE6A5FF0016E466 /* GMAG.xcdatamodel */;
+			path = GMAG.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D14DC9EC2AE6A5FE0016E466 /* Project object */;
+}
