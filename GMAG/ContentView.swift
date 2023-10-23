@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  GMAG
 //
-//  Created by Abdon Jesus Baybay on 10/23/23.
+//  Created by Cyrus Baybay on 10/23/23.
 //
 
 import SwiftUI
