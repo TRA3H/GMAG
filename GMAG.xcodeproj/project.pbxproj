@@ -16,6 +16,7 @@
 		D14DCA0F2AE6A5FF0016E466 /* GMAGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14DCA0E2AE6A5FF0016E466 /* GMAGTests.swift */; };
 		D14DCA192AE6A5FF0016E466 /* GMAGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14DCA182AE6A5FF0016E466 /* GMAGUITests.swift */; };
 		D14DCA1B2AE6A5FF0016E466 /* GMAGUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14DCA1A2AE6A5FF0016E466 /* GMAGUITestsLaunchTests.swift */; };
+		D14DCA282AEB9E0A0016E466 /* WorkoutSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14DCA272AEB9E0A0016E466 /* WorkoutSplitView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D14DCA142AE6A5FF0016E466 /* GMAGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GMAGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D14DCA182AE6A5FF0016E466 /* GMAGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMAGUITests.swift; sourceTree = "<group>"; };
 		D14DCA1A2AE6A5FF0016E466 /* GMAGUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMAGUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D14DCA272AEB9E0A0016E466 /* WorkoutSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSplitView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				D14DC9F72AE6A5FE0016E466 /* GMAGApp.swift */,
 				D14DC9F92AE6A5FE0016E466 /* ContentView.swift */,
+				D14DCA272AEB9E0A0016E466 /* WorkoutSplitView.swift */,
 				D14DC9FB2AE6A5FF0016E466 /* Assets.xcassets */,
 				D14DCA002AE6A5FF0016E466 /* Persistence.swift */,
 				D14DCA052AE6A5FF0016E466 /* Info.plist */,
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D14DCA012AE6A5FF0016E466 /* Persistence.swift in Sources */,
+				D14DCA282AEB9E0A0016E466 /* WorkoutSplitView.swift in Sources */,
 				D14DCA042AE6A5FF0016E466 /* GMAG.xcdatamodeld in Sources */,
 				D14DC9FA2AE6A5FE0016E466 /* ContentView.swift in Sources */,
 				D14DC9F82AE6A5FE0016E466 /* GMAGApp.swift in Sources */,
